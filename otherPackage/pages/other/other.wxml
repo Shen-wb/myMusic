@@ -1,0 +1,9 @@
+<!--pages/other/other.wxml-->
+<import src="/template/myTemplate.wxml" />
+<view class="otherContainer">
+  <template is="myTmp" data="{{...userInfo}}"></template>
+
+  <!-- 测试获取openId -->
+  <view class="getOpenId"></view>
+  <button bindtap="handleGetOpenId">获取OpenId</button>
+</view>
